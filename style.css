@@ -316,3 +316,40 @@ a {
     border-radius: 18px;
   }
 }
+/* ===== CONTACT SECTION FIX ===== */
+.contact-section {
+  background: #0a2540;
+  color: white;
+  padding: 60px 20px;
+}
+
+.contact-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.button.primary {
+  background: white;
+  color: #0a2540;
+  padding: 14px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.contact-actions {
+  text-align: right;
+}
+
+.contact-section .eyebrow,
+.contact-section p,
+.contact-section .contact-note,
+.contact-section h2 {
+  color: white;
+}
+
+.contact-note {
+  opacity: 0.85;
+}
