@@ -60,16 +60,19 @@ a {
   letter-spacing: -0.03em;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
 .nav a {
   font-weight: 500;
   color: var(--text-soft);
+}
+
+.nav a.button {
+  background: var(--accent);
+  color: #fff;
+}
+
+.nav a.button:hover {
+  background: var(--accent-dark);
+  color: #fff;
 }
 
 .nav a.button,
