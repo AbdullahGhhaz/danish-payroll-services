@@ -63,6 +63,12 @@ a {
   font-size: 1.05rem;
   white-space: nowrap;
 }
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
 
 .nav a {
   font-weight: 500;
