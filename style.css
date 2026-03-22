@@ -269,10 +269,6 @@ a {
   margin-bottom: 0;
 }
 
-.contact-section {
-  padding-bottom: 5rem;
-}
-
 .site-footer {
   border-top: 1px solid var(--line);
   background: #fff;
@@ -359,6 +355,13 @@ a {
   color: #8a8a8a;
 }
 
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 2px solid var(--accent);
+  background: #ffffff;
+}
+
 .contact-form textarea {
   min-height: 180px;
   resize: vertical;
@@ -371,6 +374,8 @@ a {
   font-weight: 600;
   border: none;
   box-shadow: none;
+  border-radius: 999px;
+  padding: 16px;
 }
 
 @media (max-width: 640px) {
