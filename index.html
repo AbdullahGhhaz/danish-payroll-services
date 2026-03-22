@@ -175,7 +175,7 @@
       <a href="#top">Back to top</a>
     </div>
   </footer>
-  <script>
+<script>
   const form = document.getElementById("contact-form");
   const status = document.getElementById("form-status");
 
@@ -187,20 +187,23 @@
       method: form.method,
       body: data,
       headers: {
-        'Accept': 'application/json'
+        Accept: "application/json"
       }
     }).then(response => {
+      status.style.display = "block";
+
       if (response.ok) {
-        status.style.display = "block";
-        status.innerHTML = "✅ Thank you! Your message has been sent.";
+        status.style.color = "green";
+        status.innerHTML = "Thank you! Your message has been sent.";
         form.reset();
       } else {
-        status.style.display = "block";
-        status.innerHTML = "❌ Oops! Something went wrong.";
+        status.style.color = "red";
+        status.innerHTML = "Oops! Something went wrong.";
       }
-    }).catch(error => {
+    }).catch(() => {
       status.style.display = "block";
-      status.innerHTML = "❌ Network error. Please try again.";
+      status.style.color = "red";
+      status.innerHTML = "Network error. Please try again.";
     });
   }
 
