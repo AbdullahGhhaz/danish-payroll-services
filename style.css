@@ -62,7 +62,7 @@ a {
 .nav {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 
@@ -74,6 +74,7 @@ a {
 .nav a.button {
   background: var(--accent);
   color: #fff;
+  margin-left: 1rem; /* spacing fra FAQ */
 }
 
 .nav a.button:hover {
