@@ -171,13 +171,14 @@
 
   <footer class="site-footer">
     <div class="container footer-wrap">
-      <p>© 2025 Danish Payroll Services</p>
+      <p>© 2025 - <span id="year"></span> Danish Payroll Services</p>
       <a href="#top">Back to top</a>
     </div>
   </footer>
 <script>
   const form = document.getElementById("contact-form");
   const status = document.getElementById("form-status");
+  document.getElementById("year").textContent = new Date().getFullYear();
 
   form.addEventListener("submit", async function (event) {
     event.preventDefault();
