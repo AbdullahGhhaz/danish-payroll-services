@@ -190,6 +190,8 @@ a {
 
 .button-secondary:hover {
   background: var(--surface);
+  transform: none;
+  box-shadow: none;
 }
 
 .button-small {
@@ -307,6 +309,8 @@ a {
   .nav {
     justify-content: center;
     gap: 1rem;
+    width: 100%;
+    text-align: center;
   }
 
   .nav a.button {
@@ -317,6 +321,7 @@ a {
   .footer-wrap {
     flex-direction: column;
     justify-content: center;
+    align-items: center; /* ← DENNE er vigtig */
     padding: 0.9rem 0;
   }
 
