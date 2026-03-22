@@ -71,10 +71,9 @@ a {
   font-weight: 500;
   color: var(--text-soft);
 }
-.nav .button {
-  color: #fff;
-}
-.nav .button:hover {
+
+.nav a.button,
+.nav a.button:hover {
   color: #fff;
 }
 
