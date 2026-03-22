@@ -152,16 +152,16 @@
     
     <h2 class="contact-title">Contact</h2>
 
-    <form class="contact-form">
-      <div class="form-row">
-        <input type="text" placeholder="Name" required>
-        <input type="email" placeholder="Email" required>
-      </div>
+    <form class="contact-form" action="https://formspree.io/f/mlgpkpwy" method="POST">
+  <div class="form-row">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+  </div>
 
-      <textarea placeholder="Message" rows="5" required></textarea>
+  <textarea name="message" placeholder="Message" rows="5" required></textarea>
 
-      <button type="submit" class="button send-btn">Send</button>
-    </form>
+  <button type="submit" class="button send-btn">Send</button>
+</form>
 
   </div>
 </section>
