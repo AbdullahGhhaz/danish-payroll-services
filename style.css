@@ -59,6 +59,12 @@ a {
   font-weight: 800;
   letter-spacing: -0.03em;
 }
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
 
 .nav a {
   font-weight: 500;
