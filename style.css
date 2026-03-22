@@ -288,9 +288,21 @@ a {
   .hero-grid,
   .about-grid,
   .contact-box,
-  .intro-banner,
-  .cards {
+  .intro-banner {
     grid-template-columns: 1fr;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .nav {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .nav a.button {
+    margin-left: 0;
   }
 
   .nav-wrap,
@@ -317,11 +329,27 @@ a {
   .faq-list details {
     border-radius: 18px;
   }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
+
 .contact-section {
   padding: 5rem 0;
 }
-
 .contact-form-wrapper {
   max-width: 700px;
   margin: 0 auto;
@@ -384,11 +412,6 @@ a {
   padding: 16px;
 }
 
-@media (max-width: 640px) {
-  .form-row {
-    grid-template-columns: 1fr;
-  }
-}
 #form-status {
   margin-top: 14px;
   font-weight: 600;
