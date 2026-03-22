@@ -92,6 +92,37 @@ a {
 
 .hero {
   padding: 5.5rem 0 3rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 20% 20%,
+    rgba(29, 78, 216, 0.15),
+    transparent 60%
+  );
+  z-index: 0;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 80% 30%,
+    rgba(29, 78, 216, 0.12),
+    transparent 60%
+  );
+  z-index: 0;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
 }
 
 .hero-grid,
