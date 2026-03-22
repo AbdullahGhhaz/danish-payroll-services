@@ -71,10 +71,11 @@ a {
   font-weight: 500;
   color: var(--text-soft);
 }
-
-.nav a:hover,
-.site-footer a:hover {
-  color: var(--accent);
+.nav .button {
+  color: #fff;
+}
+.nav .button:hover {
+  color: #fff;
 }
 
 .hero {
