@@ -41,11 +41,13 @@ a {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(245, 247, 251, 0.78);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(217, 226, 240, 0.7);
-  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.04);
+
+  background: rgba(255, 255, 255, 0.75); /* lysere */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
+  border-bottom: 1px solid rgba(217, 226, 240, 0.8);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
 }
 
 .nav-wrap,
