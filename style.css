@@ -66,27 +66,23 @@ a {
 .nav {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 2.5rem;
   flex-wrap: wrap;
 }
 
 .nav a {
+  display: inline-flex;
+  align-items: center;
   font-weight: 500;
   color: var(--text-soft);
   transition: color 0.2s ease, opacity 0.2s ease;
 }
 
-.nav a:hover {
-  color: var(--text);
-}
-
-
 .nav a.button {
   background: var(--accent);
   color: #fff;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
-
 .nav a.button:hover {
   background: var(--accent-dark);
   color: #fff;
