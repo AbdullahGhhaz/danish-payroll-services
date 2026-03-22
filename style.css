@@ -166,11 +166,19 @@ a {
   background: var(--accent);
   color: #fff;
   font-weight: 700;
-  box-shadow: var(--shadow);
+  box-shadow: 0 10px 25px rgba(29, 78, 216, 0.25);
+  transition: all 0.2s ease;
 }
 
 .button:hover {
   background: var(--accent-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(29, 78, 216, 0.35);
+}
+
+.button:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 15px rgba(29, 78, 216, 0.2);
 }
 
 .button-secondary {
