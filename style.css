@@ -386,3 +386,8 @@ a {
     grid-template-columns: 1fr;
   }
 }
+#form-status {
+  margin-top: 14px;
+  font-weight: 600;
+  text-align: center;
+}
