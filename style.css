@@ -66,9 +66,9 @@ a {
 }
 
 .brand img {
-  height: 44px;      /* var 28px */
-  max-width: 260px;  /* var 180px */
-  width: auto;
+  width: 200px;
+  height: auto;
+  max-width: 220px;
   display: block;
   object-fit: contain;
 }
