@@ -520,3 +520,6 @@ a {
 section[id], main[id] {
   scroll-margin-top: calc(var(--header-h) + 1rem);
 }
+#top {
+  scroll-margin-top: 0;
+}
