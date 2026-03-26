@@ -64,6 +64,15 @@ a {
   letter-spacing: -0.03em;
   font-size: 1.05rem;
   white-space: nowrap;
+
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  height: 34px;
+  width: auto;
+  display: block;
 }
 .nav {
   display: flex;
