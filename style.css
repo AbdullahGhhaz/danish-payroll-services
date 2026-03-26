@@ -513,3 +513,7 @@ a {
   font-weight: 600;
   text-align: center;
 }
+/* ---- Scroll offset for sticky header ---- */
+section[id] {
+  scroll-margin-top: 90px;
+}
