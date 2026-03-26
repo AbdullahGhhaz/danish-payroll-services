@@ -59,6 +59,12 @@ a {
   min-height: 78px;
 }
 
+.footer-wrap {
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
+
 .brand {
   font-weight: 800;
   letter-spacing: -0.03em;
