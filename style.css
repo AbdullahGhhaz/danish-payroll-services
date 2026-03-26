@@ -517,6 +517,6 @@ a {
   font-weight: 600;
   text-align: center;
 }
-section[id] {
+section[id], main[id] {
   scroll-margin-top: calc(var(--header-h) + 1rem);
 }
